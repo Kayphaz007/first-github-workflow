@@ -10,7 +10,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3
         with:
-          repository: "02-workflow"
+          ref: 02-workflow
       - name: Install NodeJS
         uses: actions/setup-node@v3
         with:
