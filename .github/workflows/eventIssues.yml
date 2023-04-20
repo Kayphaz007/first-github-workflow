@@ -1,5 +1,8 @@
 name: Output event details on issues
-on: issues
+on:
+  issues:
+    branches:
+      - "03-practice-project"
 jobs:
   event-details:
     runs-on: ubuntu-latest
